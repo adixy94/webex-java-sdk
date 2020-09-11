@@ -17,6 +17,8 @@ public abstract class Spark {
     public abstract RequestBuilder<Organization> organizations();
     public abstract RequestBuilder<License> licenses();
     public abstract RequestBuilder<Role> roles();
+    public abstract RequestBuilder<Meeting> meetings();
+    public abstract RequestBuilder<MeetingInvitee> meetingInvitees();
 
 
     /**
